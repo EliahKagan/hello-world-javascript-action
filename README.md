@@ -44,7 +44,7 @@ On 17 March 2024, about 10 days after the [announcment](https://github.blog/chan
 
 However, I wonder if the reason is that, as of this time, no new release of [the runner](https://github.com/actions/runner) has been made since the feature was added. Specifically:
 
-- Recognition of that environment variable appears to have been implemented in [a pull request](https://github.com/actions/runner/pull/3192) opened on 7 March 2024, the same day as the changelog announcement, and [merged](https://github.com/actions/runner/pull/3192#pullrequestreview-1934887919) on 13 Mark 2024.
+- Recognition of that environment variable appears to have been implemented in [a pull request](https://github.com/actions/runner/pull/3192) opened on 7 March 2024, the same day as the changelog announcement, and [merged](https://github.com/actions/runner/pull/3192#pullrequestreview-1934887919) on 13 March 2024.
 - In contrast, the latest release of the runner as of this writing was [v2.314.1](https://github.com/actions/runner/releases/tag/v2.314.1) on 27 February 2024.
 
 So my hope is that this will start working as of the next release (or very shortly thereafter as it is rolled out for use in all repositories).
