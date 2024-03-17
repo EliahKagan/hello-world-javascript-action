@@ -1,3 +1,4 @@
+const process = require('process');
 const core = require('@actions/core');
 const github = require('@actions/github');
 
