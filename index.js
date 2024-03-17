@@ -10,7 +10,7 @@ try {
 
     const forceVar = 'FORCE_JAVASCRIPT_ACTIONS_TO_NODE20';
     const forceVal = process.env[forceVar];
-    console.log(`With ${forceVar}=${forceVal}`);
+    console.log(`Got: ${forceVar}=${forceVal}`);
 
     const time = (new Date()).toTimeString();
     core.setOutput('time', time);
