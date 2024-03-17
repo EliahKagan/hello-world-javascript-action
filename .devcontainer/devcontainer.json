@@ -1,0 +1,19 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:16-bookworm",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "bierner.markdown-preview-github-styles",
+                "eamodio.gitlens",
+                "GitHub.vscode-github-actions",
+                "GitHub.vscode-pull-request-github",
+                "mhutchie.git-graph"
+            ],
+            "settings": {
+                "gitlens.showWelcomeOnInstall": false,
+                "gitlens.showWhatsNewAfterUpgrades": false
+            }
+        }
+    },
+    "onCreateCommand": [".devcontainer/onCreate"]
+}
