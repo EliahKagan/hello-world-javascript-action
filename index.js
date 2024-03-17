@@ -7,6 +7,11 @@ try {
     const nameToGreet = core.getInput('who-to-greet');
     const nodeVersion = process.version;
     console.log(`Hello ${nameToGreet} from Node.js ${nodeVersion}!`);
+
+    const forceVar = 'FORCE_JAVASCRIPT_ACTIONS_TO_NODE20';
+    const forceVal = process.env[forceVar];
+    console.log(`With ${forceVar}=${forceVal}`);
+
     const time = (new Date()).toTimeString();
     core.setOutput('time', time);
     core.setOutput('node-version', nodeVersion);
