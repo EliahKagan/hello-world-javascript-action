@@ -1,0 +1,28 @@
+name: CI
+
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest
+
+    name: Greet and show Node version
+
+    steps:
+    - name: Use hello world action
+      id: hello
+      uses: EliahKagan/hello-world-javascript-action@main
+      with:
+        who-to-greet: 'Eliah'
+
+    - name: Get the output time
+      run: |
+        echo "The time was $RETRIEVED_TIME."
+      env:
+        RETRIEVED_TIME: ${{ steps.hello.outputs.time }}
+
+    - name: Get the node version
+      run: |
+        echo "The Node.js version was $RETRIEVED_NODE_VERSION."
+      env:
+        RETRIEVED_NODE_VERSION: ${{ steps.hello.outputs.node-version }}
