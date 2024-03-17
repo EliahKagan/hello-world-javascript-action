@@ -37,10 +37,10 @@ with:
 
 ## Results of the experiment
 
-On 17 March 2024, about 10 days after the [announcment](https://github.blog/changelog/2024-03-07-github-actions-all-actions-will-run-on-node20-instead-of-node16-by-default/) documenting it, setting `FORCE_JAVASCRIPT_ACTIONS_TO_NODE20` does not seem to have any effect.
+On 17 March 2024, about 10 days after the [announcement](https://github.blog/changelog/2024-03-07-github-actions-all-actions-will-run-on-node20-instead-of-node16-by-default/) documenting it, setting `FORCE_JAVASCRIPT_ACTIONS_TO_NODE20` does not seem to have any effect.
 
-- [Test using the action implemented in this repository.](https://github.com/EliahKagan/hello-world-javascript-action/actions/runs/8313584426/job/22749724550#step:4:8)
-- [Auxiliary test](https://github.com/EliahKagan/hello-world-javascript-action/actions/runs/8313584425/job/22749724552#step:2:15) using [github-script](https://github.com/actions/github-script) instead.
+- [Test using the action implemented in this repository](https://github.com/EliahKagan/hello-world-javascript-action/actions/runs/8313584426/job/22749724550#step:4:8)
+- [Auxiliary test](https://github.com/EliahKagan/hello-world-javascript-action/actions/runs/8313584425/job/22749724552#step:2:15) using [github-script](https://github.com/actions/github-script) instead
 
 However, I wonder if the reason is that, as of this time, no new release of [the runner](https://github.com/actions/runner) has been made since the feature was added. Specifically:
 
