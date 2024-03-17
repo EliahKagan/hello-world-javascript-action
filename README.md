@@ -30,9 +30,7 @@ The version of Node.js. Also printed in the greeting.
 ## Example usage
 
 ```yaml
-uses: actions/hello-world-javascript-action@main
+uses: EliahKagan/hello-world-javascript-action@main
 with:
-  who-to-greet: 'Mona the Octocat'
+  who-to-greet: 'Eliah'
 ```
-
- <!-- FIXME: Replace `main` with a version tag. -->
