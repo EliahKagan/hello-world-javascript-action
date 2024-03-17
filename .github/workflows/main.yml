@@ -11,17 +11,12 @@ jobs:
 
     name: Greet and show Node version
 
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE20: 'true'
-
     steps:
     - name: Use hello world action
       id: hello
       uses: EliahKagan/hello-world-javascript-action@main
       with:
         who-to-greet: 'Eliah'
-      env:
-        FORCE_JAVASCRIPT_ACTIONS_TO_NODE20: 'true'
 
     - name: Get the output time
       run: |
