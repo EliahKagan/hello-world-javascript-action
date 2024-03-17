@@ -1,4 +1,4 @@
-const process = require('process');
+const process = require('node:process');
 const core = require('@actions/core');
 const github = require('@actions/github');
 
