@@ -7,7 +7,7 @@ This is a GitHub Action from the [Creating a JavaScript action](https://docs.git
 
 ## License
 
-This uses code from the [MIT licensed](https://github.com/github/docs/blob/main/LICENSE-CODE) tutorial with only fairly minimal modification. Like the code in [the tutorial](https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action) ([whose repository is here](https://github.com/github/docs/blob/75d63ddd622df49090043db764897433719edc90/content/actions/creating-actions/creating-a-javascript-action.md?plain=1#L73)), the code of this action is licensed under the MIT license.
+This uses code from the [MIT licensed](https://github.com/github/docs/blob/main/LICENSE-CODE) tutorial with only moderate modification. Like the code in [the tutorial](https://docs.github.com/en/actions/creating-actions/creating-a-javascript-action) ([whose repository is here](https://github.com/github/docs/blob/75d63ddd622df49090043db764897433719edc90/content/actions/creating-actions/creating-a-javascript-action.md?plain=1#L73)), the code of this action is licensed under the MIT license.
 
 See **[`LICENSE-CODE`](LICENSE-CODE)**, which is preserved from the tutorial repository. Dependencies vendored in the `node_modules` directory have their own licenses. No further restrictions are imposed.
 
