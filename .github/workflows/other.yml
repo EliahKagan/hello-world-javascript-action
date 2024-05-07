@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/github-script@v6  # Normally uses Node 16.
+    - uses: actions/github-script@v7  # Normally uses Node 16.
       with:
         script: |
           console.log(`Node.js version: ${process.version}`);
